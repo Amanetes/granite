@@ -11,6 +11,7 @@ gem "jbuilder"
 gem "redis", "~> 4.0"
 gem "webpacker"
 gem "responders"
+gem 'react-rails'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
