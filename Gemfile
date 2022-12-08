@@ -32,9 +32,11 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
-  # For code formatting and linting
-  gem "rubocop"
-  gem "rubocop-rails"
+  # A Ruby static code analyzer, based on the community Ruby style guide
+  gem "rubocop", require: false
+  gem "rubocop-rails", require: false
+  # For linting ERB files
+  gem "erb_lint", require: false
 end
 
 group :development do
